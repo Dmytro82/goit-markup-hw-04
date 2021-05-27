@@ -209,6 +209,34 @@ img {
   color: var(--accent-color);
 }
 
+.features .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--color-section-background2);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/svg/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/svg/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/svg/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/svg/astronaut.svg);
+}
+
 /* index.html - css */
 
 /* main container studio */
@@ -217,6 +245,7 @@ img {
 
 .hero {
   background-color: var(--color-section-background);
+  background-image: url(../images/backgroundHero.jpg);
 }
 
 .hero .container {
