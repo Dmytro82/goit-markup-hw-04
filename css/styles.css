@@ -568,6 +568,10 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.portfolio .item:hover,
+.portfolio .item:focus {
   box-shadow: var(--card-shadov-portfolio);
 }
 
