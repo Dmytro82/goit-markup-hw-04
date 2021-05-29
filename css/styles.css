@@ -249,6 +249,7 @@ img {
       var(--hero-gradient)
     ),
     url(../images/index-img/backgroundHero.jpg);
+  background-position: center;
 }
 
 .hero .container {
